@@ -5,3 +5,15 @@ Oggi pomeriggio ripassate i primi concetti di classe e di variabili e metodi d'i
    => all'interno della classe è definito un costruttore
    => all'interno della classe è definito almeno un metodo
 - vengono istanziati almeno due oggetti ‘Movie’ e stampati a schermo i valori delle relative proprietà -->
+
+<?php
+
+include  "./class/class.php";
+
+//Assegnazione valori tramite costruttore
+$myMovie_1 = new Movie("King Kong vs. Godzilla.", 2021, " monster film");
+$myMovie_2 = new Movie("A Quiet Place", 2018, " horror film");
+$myMovie_3 = new Movie("Raya and the Last Dragon", 2021, " fantasy");
+$myMovie_4 = new Movie("Sister", 2021, "drama film");
+$myMovie_5 = new Movie("Detective Chinatown 3", 2021 , " comedy-mystery");
+
